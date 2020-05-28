@@ -1,0 +1,7 @@
+<svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="heart" viewBox="0 0 100 92"><path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71z"/></symbol>
+
+<symbol id="collection" viewBox="0 0 20 20"><path d="M2 0C.9 0 0 .9 0 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2H2zm3 9c-.6 0-1 .4-1 1s.4 1 1 1h10c.6 0 1-.4 1-1s-.4-1-1-1H5z" fill-rule="evenodd" clip-rule="evenodd"/></symbol>
+
+<symbol id="file-video" viewBox="0 0 15 15"><g fill="none" fill-rule="evenodd"><rect fill="#F52C75" width="15" height="15" rx="4"/><path d="M12.177 6.972L4.943 3.08C4.521 2.851 4 3.144 4 3.607v7.786c0 .464.521.756.943.528l7.234-3.893a.593.593 0 000-1.056" fill="#282828"/></g></symbol>
+</svg>

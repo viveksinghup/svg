@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg sprites</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .icon, .bg-icon {
+            width: 50px;
+            height: 50px;
+            margin: 20px;
+        }
+        .icon svg, img{ width: 50px;
+            height: 50px;
+        }
+        .bg1{
+            background: url('yoga.svg#yoga_1') left top no-repeat;
+            background-size: 50px 50px;
+        }
+        .bg2{
+            background: url('yoga.svg#yoga_2') left top no-repeat;
+            background-size: 50px 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- call svg using svg tag -->
+
+    <div class="icon">
+        <svg>
+            <use xlink:href="icon.svg#heart" />
+        </svg>
+    </div>
+    <div class="icon">
+        <svg>
+            <use xlink:href="icon.svg#collection" />
+        </svg>
+    </div>
+    <div class="icon">
+        <svg>
+            <use xlink:href="icon.svg#file-video" />
+        </svg>
+    </div>
+
+    <!-- call svg using background image -->
+
+    <div class="icon bg1"></div>
+    <div class="icon bg2"></div>
+
+    <!-- call svg using img tag -->
+
+    <div class="icon">
+        <img src="/yoga.svg#yoga_1">
+    </div>
+    <div class="icon">
+        <img src="/yoga.svg#yoga_2">
+    </div>
+
+</body>
+</html>
